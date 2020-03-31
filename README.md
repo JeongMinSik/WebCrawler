@@ -100,8 +100,8 @@
   >   * crawlSingleArticle_Herbsutter(): 위와 동일
   
 * DB
- > * CREATE TABLE Article(title	TEXT NOT NULL, url TEXT PRIMARY KEY ON CONFLICT REPLACE NOT NULL, date TEXT NOT NULL, contents TEXT NOT NULL, imgSrc	TEXT NOT NULL);
- > * CREATE INDEX contentsIdx ON Article(contents);
+  > * CREATE TABLE Article(title	TEXT NOT NULL, url TEXT PRIMARY KEY ON CONFLICT REPLACE NOT NULL, date TEXT NOT NULL, contents TEXT NOT NULL, imgSrc	TEXT NOT NULL);
+  > * CREATE INDEX contentsIdx ON Article(contents);
 
   
 ---------------------------------------
