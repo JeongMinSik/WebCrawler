@@ -74,7 +74,7 @@
 ### 5. 프로젝트 구조
 
 * 크롤링 플로우
-<img src="https://user-images.githubusercontent.com/14919359/77997136-d9240c00-7369-11ea-999c-fc584140db51.png"></img>
+<img src="https://user-images.githubusercontent.com/14919359/78001497-b8ab8000-7370-11ea-8b00-bea303783fea.png"></img>
 
 * 클래스 명세
   > * CWebCrawlerMinsikDlg
