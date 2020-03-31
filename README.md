@@ -69,6 +69,7 @@
   * item 클릭시 이미지가 있다면 썸네일 표시
   * item 더블클릭시 iexplorer로 해당 url 오픈
 
+
 ---------------------------------------
 ### 5. 프로젝트 구조
 
@@ -98,6 +99,10 @@
   >   * crawlPages_Herbsutter(): 위와 동일
   >   * crawlSingleArticle_Herbsutter(): 위와 동일
   
+* DB
+> * CREATE TABLE Article(title	TEXT NOT NULL, url TEXT PRIMARY KEY ON CONFLICT REPLACE NOT NULL, date TEXT NOT NULL, contents TEXT NOT NULL, imgSrc	TEXT NOT NULL);
+> * CREATE INDEX contentsIdx ON Article(contents);
+
   
 ---------------------------------------
 ### 6. 사용된 오픈소스
