@@ -91,11 +91,11 @@
   >   * insertArticleInfoToDB(): articleInfo를 DB에 넣기
   >   * loadArticleInfoListFromDB(): DB에서 articleInfoList 얻어오기
   >   *
-  >   * CrawlMainPage_OldNewThing(): 메인 웹페이지를 읽고 총 페이지 수 계산
-  >   * CrawlPages_OldNewThing(): 하나의 페이지를 읽고 총 글 수 계산
-  >   * CrawlSingleArticle_OldNewThing(): 하나의 글을 읽고 DB저장
+  >   * \<static\> CrawlMainPage_OldNewThing(): 메인 웹페이지를 읽고 총 페이지 수 계산
+  >   * \<static\> CrawlPages_OldNewThing(): 하나의 페이지를 읽고 총 글 수 계산
+  >   * \<static\> CrawlSingleArticle_OldNewThing(): 하나의 글을 읽고 DB저장
   >   *
-  >   * CrawlMainPage_Herbsutter(): 위와 동일
+  >   * \<static\> CrawlMainPage_Herbsutter(): 위와 동일
   >   * crawlPages_Herbsutter(): 위와 동일
   >   * crawlSingleArticle_Herbsutter(): 위와 동일
   
