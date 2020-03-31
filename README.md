@@ -102,6 +102,7 @@
 * DB
   > * CREATE TABLE Article(title	TEXT NOT NULL, url TEXT PRIMARY KEY ON CONFLICT REPLACE NOT NULL, date TEXT NOT NULL, contents TEXT NOT NULL, imgSrc	TEXT NOT NULL);
   > * CREATE INDEX contentsIdx ON Article(contents);
+  > * SELECT title, url, date, contents, imgSrc FROM Article WHERE contents LIKE '%검색어%';
 
   
 ---------------------------------------
